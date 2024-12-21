@@ -1,0 +1,38 @@
+body {
+	background-color: hsla(238, 80%, 67%, 0.4);
+}
+div {
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	background-image: url(cosmos.jpg);
+	text-align: center;
+	color: white;
+	border: 7px double hsla(238, 80%, 67%, 0.5);
+	padding: 7px;
+	width: 350px;
+	height: 35px;
+	
+}
+.a {
+	background-color: #4bc5ce;
+	border:1px solid black;
+	width: 250px;
+	height: 35px;
+	cursor:pointer;
+	font-size: 27px;
+	}
+.b:hover {
+	background-color: #104a4e;
+	text-shadow: -1px 1px white,1px -1px white;
+	color: black;
+	font-family: fantasy, normal;
+	border: 2px dashed black;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	flex-wrap: wrap;
+}
