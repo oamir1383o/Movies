@@ -1,0 +1,75 @@
+body {
+	background-image: url(sky.jpg);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.chap {
+	background-image: url(tree.jpg);
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-size: contain;
+}
+.fparent {
+	
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}	 
+.rast {
+	
+			
+}
+
+
+h1 		 {
+	background-image: url(cosmos.jpg);
+	text-align: center;
+	color: white;
+	border: 7px double hsla(238, 80%, 67%, 0.5);
+	padding: 7px;
+	width: 1fr;
+	
+	
+		 }
+
+.fitem	 {
+	background-image: url(wood.jpg);
+	background-size: contain;
+
+	border:1px solid black;
+	border-left-width: 0px;
+	border-radius: 0px 100% 100% 0px;
+	cursor:pointer;
+	color:rgb(245, 200, 164);
+	width: 85%;
+	
+	text-align: center;
+	text-shadow: -1px 1px black,1px -1px black;	
+	font-weight: bold;
+	font-family: sans-serif;	
+	font-size: 200%;
+		 }
+
+.fitem:hover {
+	background-color: #104a4e;
+	text-shadow: -1px 1px black,1px -1px black;
+	color: rgb(228, 171, 124);
+	font-family: sans-serif, normal;
+	border: 4px solid black;
+	border-left-width: 0px;
+		 }
+
+
+.rfi {
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(231, 88, 88);
+	color: black;
+	border: 4px dashed black;
+	border-radius: 55% 45% 70% 30% / 45% 65% 30% 55%;
+}
